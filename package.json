@@ -1,6 +1,6 @@
 {
   "name": "@buttercup/signing",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Signing and verification tools for Buttercup archives",
   "main": "source/index.js",
   "scripts": {
