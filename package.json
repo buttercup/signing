@@ -1,0 +1,25 @@
+{
+  "name": "@buttercup/signing",
+  "version": "0.0.0",
+  "description": "Signing and verification tools for Buttercup archives",
+  "main": "source/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buttercup/signing.git"
+  },
+  "keywords": [
+    "buttercup",
+    "signing",
+    "authentication",
+    "verification"
+  ],
+  "author": "Perry Mitchell <perry@perrymitchell.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/buttercup/signing/issues"
+  },
+  "homepage": "https://github.com/buttercup/signing#readme"
+}
