@@ -4,7 +4,16 @@
   "description": "Signing and verification tools for Buttercup archives",
   "main": "source/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --write '{source,test}/**/*.js'",
+    "precommit": "lint-staged",
+    "test": "npm run test:format",
+    "test:format": "prettier-check '{source,test}/**/*.js'"
+  },
+  "lint-staged": {
+    "{source,test}/**/*.js": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "repository": {
     "type": "git",
@@ -21,5 +30,11 @@
   "bugs": {
     "url": "https://github.com/buttercup/signing/issues"
   },
-  "homepage": "https://github.com/buttercup/signing#readme"
+  "homepage": "https://github.com/buttercup/signing#readme",
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.0",
+    "prettier": "^1.11.1",
+    "prettier-check": "^2.0.0"
+  }
 }

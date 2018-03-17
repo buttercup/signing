@@ -15,7 +15,7 @@ function getFormat() {
  */
 function getSignature() {
     return BUTTERCUP_SIGNATURE;
-},
+}
 
 /**
  * Detect if a string has a valid signature
