@@ -3,6 +3,10 @@
 
 [![Build Status](https://travis-ci.org/buttercup/signing.svg?branch=master)](https://travis-ci.org/buttercup/signing)
 
+## :warning: Deprecated
+
+This repository is deprecated since [Buttercup core](https://github.com/buttercup/buttercup-core) version 4, as it is now included in the core library. It is no longer required to include this library as its functionality can be found in the [`buttercup`](https://www.npmjs.com/package/buttercup) dependency.
+
 ## About
 This library provides tools for archive and resource signing and validation. It is responsible for the authoritative definition of the format of the **encrypted** vault structure.
 
